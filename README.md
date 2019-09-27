@@ -1,2 +1,2 @@
-# vim_config
-Vim configs
+# VIM
+Vim Configs
