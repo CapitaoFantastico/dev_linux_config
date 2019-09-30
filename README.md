@@ -91,3 +91,9 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 - httpie [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie) Http Client igual o curl, só que para humanos :D
 - JsonServer [https://github.com/typicode/json-server](https://github.com/typicode/json-server) Serve um json como uma API
 - MailHog [https://blog.rocketseat.com.br/testando-emails-mailhog-node-docker/](https://blog.rocketseat.com.br/testando-emails-mailhog-node-docker/) Servidor SMTP pra poder testar o envio de e-mails, só seguir o tutorial ai de cima
+
+## Configs Por Linguagem
+
+### Ruby
+Seguir conforme indicado nesse tutorial: https://www.vimfromscratch.com/articles/vim-for-ruby-and-rails-in-2019/
+ ! Atenção principalmente aos passos do Solargraph, a respeito da documentação dele
