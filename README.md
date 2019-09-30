@@ -27,12 +27,11 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 > PlugInstall
 
 
-### Configurando o tmux
+### Configurando o tilix
 
-- Inserir todas as linhas do arquivo [.tmux.config](https://github.com/NewHenriqueSouza/vim_config/blob/master/.tmux.config ".tmux.config")  deste repo no arquivo $HOME/.vimrc
-- Executar o reload das configs do tmux executando o comando a seguir: 
-
-> tmux source-file ~/.tmux.conf
+- Só baixar o tilix com o comando: sudo apt-get install tilix
+- Configurar os atalhos para abrir nova abaixo: Ctrl + Alt + S
+- Configurar esquema de cores como Material, Mudar fonte, barra de titulo escura
 
 ### Configuração do Bash
 
@@ -77,6 +76,7 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 - Minikube https://github.com/kubernetes/minikube - Rodar kubernetes localhost
 
 ### Utilitários de linha de comando
+- The Silver Searcher - https://github.com/ggreer/the_silver_searcher Melhor buscar dentro de arquivos
 - tldr [https://tldr.sh/](https://tldr.sh/) Utilitário parecido com o man do linux, só que mais direto e mais simples
 - YADM [https://github.com/TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm) - Gerenciados de .[dot]Files
 - fzf [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf) Maior buscador do mundo :D
