@@ -4,6 +4,12 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 ## Ubuntu :D
 
+### O Mais importante primeiro WALLPAPERS
+
+Tem uma pasta completa com todos wallpapers que eu gosto neste repo
+
+Para fazer eles funcionarem como um slide passando varios papéis de parede basta usar o app: https://wiki.gnome.org/Apps/Shotwell/BuildingAndInstalling
+
 ### Fonte
 - Instalar a fonte no Linux: [https://github.com/belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans)
 - Alterar nas configs do terminal do Linux para usar a fonte acima;
