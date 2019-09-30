@@ -100,8 +100,8 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 - Para funcionar o autocompleteme com Ruby, precisa após instalar, rodar estes passo: 
 
-sudo apt install build-essential cmake python3-dev
-cd ~/.vim/bundle/youcompleteme
-python3 install.py --clang-completer
+> sudo apt install build-essential cmake python3-dev
+> cd ~/.vim/bundle/youcompleteme
+> python3 install.py --clang-completer
 
 ---
