@@ -41,6 +41,7 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 ### Produtividade
 - Boosternote [https://boostnote.io/](https://boostnote.io/) - Ferramenta para criar snippets
+- Postman [https://www.getpostman.com/](https://www.getpostman.com/) Fazer requisições Http
 
 ### Internet
 - Chrome [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) - Navegador
@@ -65,6 +66,10 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 - Visual Studio Code [https://code.visualstudio.com/](https://code.visualstudio.com/)
 - Vim [https://www.vim.org/](https://www.vim.org/) Melhor editor :D
 
+### Ambiente de desenvolvimento
+- Docker [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- Minikube https://github.com/kubernetes/minikube - Rodar kubernetes localhost
+
 ### Utilitários de linha de comando
 - tldr [https://tldr.sh/](https://tldr.sh/) Utilitário parecido com o man do linux, só que mais direto e mais simples
 - YADM [https://github.com/TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm) - Gerenciados de .[dot]Files
@@ -73,11 +78,10 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 - Inav [https://lnav.readthedocs.io/en/latest/](https://lnav.readthedocs.io/en/latest/) Gerenciar arquivos de logs, bem útil :D
 - fkill [https://github.com/sindresorhus/fkill-cli](https://github.com/sindresorhus/fkill-cli) Melhor kill process
 - how2 [https://github.com/santinic/how2](https://github.com/santinic/how2) Buscador no Stackoverflow
-- 
-
-### Ambiente de desenvolvimento
-- Docker [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-- Minikube https://github.com/kubernetes/minikube - Rodar kubernetes localhost
 - ctop [https://github.com/bcicen/ctop](https://github.com/bcicen/ctop) Interace com métricas dos containers
 - Pet https://github.com/knqyf263/pet Snipets simples para linha de comando
-- 
+- caniuse [https://github.com/sgentle/caniuse-cmd](https://github.com/sgentle/caniuse-cmd) Verificar se algum recurso é compatível com o navegador especifico
+- release-it [https://github.com/release-it/release-it](https://github.com/release-it/release-it) Automatizar tarefas de CI, versionamento automatico, etc
+- httpie [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie) Http Client igual o curl, só que para humanos :D
+- JsonServer [https://github.com/typicode/json-server](https://github.com/typicode/json-server) Serve um json como uma API
+- MailHog [https://blog.rocketseat.com.br/testando-emails-mailhog-node-docker/](https://blog.rocketseat.com.br/testando-emails-mailhog-node-docker/) Servidor SMTP pra poder testar o envio de e-mails, só seguir o tutorial ai de cima
