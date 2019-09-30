@@ -94,14 +94,31 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 ## Configs Por Linguagem
 
-### Ruby
+### Ruby on Rails
 
 Instalar o Ruby on Rails de acordo com o especificado neste site: https://gorails.com/setup/ubuntu/19.04
 
-#### AutoCompleteMe - VIM
-- Seguir conforme indicado nesse tutorial: https://www.vimfromscratch.com/articles/vim-for-ruby-and-rails-in-2019/
- ! Atenção principalmente aos passos do Solargraph, a respeito da documentação dele
+#### Solargraph - LSP
+Instalar a gem do Solargraph com o comando
+```bash
+gem install solargraph
+```
 
+A seguir, comandos que incrementam o autocomplete com o Solargraph, executar na ordem e dentro da pasta **raíz do projeto**
+```bash
+yard gems
+solargraph bundle
+
+```
+1. O primeiro instala a doc do Ruby
+2. A segunda certifica que a doc de todas as outras gems estão instaladas
+
+Mais detalhes sobre estas configurações podem ser obtidos nos links abaixo:
+- Rails no VIM - 2019 https://www.vimfromscratch.com/articles/vim-for-ruby-and-rails-in-2019/
+- Topico com passos para melhorar o Solargraph no Ruby: https://github.com/castwide/solargraph/issues/87
+
+
+#### AutoCompleteMe - VIM
 - Para funcionar o autocompleteme com Ruby, precisa após instalar, rodar estes passo (o restante da configuração está no arquivo .vimrc:
 
 ```bash
