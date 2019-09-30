@@ -7,6 +7,7 @@ set guifont=FantasqueSansMono-Regular
 nnoremap <C-p> :Files<cr>
 nnoremap <C-b> :Buffers<cr>
 nnoremap <C-o> :Ag<cr>
+nnoremap <C-i> :Rg<cr>
 
 nmap ga <Esc>:Git add -A<cr>
 nmap gs :Gstatus<CR>
@@ -22,18 +23,16 @@ let g:fzf_action = {
 let g:fzf_layout = { 'down': '~40%' }
 
 
-" SyntasticStatus Configs
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_error_symbol = '✗'
-let g:syntastic_style_error_symbol = '✠'
-let g:syntastic_warning_symbol = '∆'
-let g:syntastic_style_warning_symbol = '≈'
+" ALE Configs
+let g:ale_linters = {
+      \   'ruby': ['standardrb', 'rubocop'],
+      \   'python': ['flake8', 'pylint'],
+      \   'javascript': ['eslint'],
+      \}
+let g:ale_fixers = {
+      \    'ruby': ['rubocop'],
+      \}
+let g:ale_fix_on_save = 1
 
 
 " OmniSharp Config - C# 
@@ -54,11 +53,14 @@ let g:airline_powerline_fonts = 1
 " airline theme
 let g:airline_theme='badwolf'
 
+" vim-javascript configs
+let g:javascript_plugin_jsdoc = 1
+
 
 "Plugins
 call plug#begin('~/.vim/bundle')
 
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
@@ -72,9 +74,9 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'slim-template/vim-slim'
 Plug 'omnisharp/omnisharp-vim'
 Plug 'nanotech/jellybeans.vim'
-Plug 'ervandew/supertab'
+"Plug 'ervandew/supertab'
 Plug 'raimondi/delimitmate'
-Plug 'christoomey/vim-tmux-navigator'
+
 
 call plug#end()
 
