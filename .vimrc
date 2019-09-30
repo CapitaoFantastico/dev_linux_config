@@ -56,6 +56,14 @@ let g:airline_theme='badwolf'
 " vim-javascript configs
 let g:javascript_plugin_jsdoc = 1
 
+" Autocompleteme config - Ruby
+let g:ycm_language_server = [
+  \   {
+  \     'name': 'ruby',
+  \     'cmdline': [ expand( '~/.rbenv/shims/solargraph' ), 'stdio' ],
+  \     'filetypes': [ 'ruby' ],
+  \   }
+  \ ]
 
 "Plugins
 call plug#begin('~/.vim/bundle')
@@ -76,6 +84,7 @@ Plug 'omnisharp/omnisharp-vim'
 Plug 'nanotech/jellybeans.vim'
 "Plug 'ervandew/supertab'
 Plug 'raimondi/delimitmate'
+Plug 'valloric/youcompleteme'
 
 
 call plug#end()
