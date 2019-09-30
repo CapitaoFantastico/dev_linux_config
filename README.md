@@ -95,5 +95,13 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 ## Configs Por Linguagem
 
 ### Ruby
-Seguir conforme indicado nesse tutorial: https://www.vimfromscratch.com/articles/vim-for-ruby-and-rails-in-2019/
+- Seguir conforme indicado nesse tutorial: https://www.vimfromscratch.com/articles/vim-for-ruby-and-rails-in-2019/
  ! Atenção principalmente aos passos do Solargraph, a respeito da documentação dele
+
+- Para funcionar o autocompleteme com Ruby, precisa após instalar, rodar estes passo: 
+
+sudo apt install build-essential cmake python3-dev
+cd ~/.vim/bundle/youcompleteme
+python3 install.py --clang-completer
+
+---
