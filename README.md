@@ -82,9 +82,7 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 ### Ambiente de desenvolvimento
 - Docker [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-```bash
-sudo apt update && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo apt-key fingerprint 0EBFCD88 && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" -y && sudo apt update && sudo apt install docker-ce -y
-```
+- Solução para problema no Mint: https://forums.linuxmint.com/viewtopic.php?t=300469
 - Minikube https://github.com/kubernetes/minikube - Rodar kubernetes localhost
 
 ### Utilitários de linha de comando
