@@ -12,8 +12,16 @@ Para fazer eles funcionarem como um slide passando varios papéis de parede bast
 
 ### Fonte
 - Instalar a fonte no Linux: [https://github.com/belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans)
+- Outra fonte: Dank Mono, disponível no meu Drive
+- Outra fonte: ANKA/CODER
 - Alterar nas configs do terminal do Linux para usar a fonte acima;
 - Para alterar a fonte no vim, só seguir os passos abaixo, pois esta alteração já consta no $HOME/.vimrc
+
+### Icones
+- Baixar este pacote de icones: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+- Colocar o resultado extraído dentro da pasta: ~/.icons
+
+Curiosidade: Site de customizações - www.gnome-look.org
 
 ### Instalar o gerenciador de Plugins - Vim-plugin
 
