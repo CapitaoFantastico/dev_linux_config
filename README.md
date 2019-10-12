@@ -55,6 +55,7 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 ### Produtividade
 - Boosternote [https://boostnote.io/](https://boostnote.io/) - Ferramenta para criar snippets
 - Postman [https://www.getpostman.com/](https://www.getpostman.com/) Fazer requisições Http
+- Synapse - Spotlight para Linux - Disponível nas lojas do Ubuntu ou Mint
 
 ### Internet
 - Chrome [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) - Navegador
