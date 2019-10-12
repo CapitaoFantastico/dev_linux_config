@@ -51,7 +51,7 @@ let g:airline_powerline_fonts = 1
 
 
 " airline theme
-let g:airline_theme='badwolf'
+let g:airline_theme='violet'
 
 " vim-javascript configs
 let g:javascript_plugin_jsdoc = 1
@@ -64,6 +64,10 @@ let g:ycm_language_server = [
   \     'filetypes': [ 'ruby' ],
   \   }
   \ ]
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "Plugins
 call plug#begin('~/.vim/bundle')
@@ -81,16 +85,15 @@ Plug 'pangloss/vim-javascript'
 Plug 'vim-ruby/vim-ruby'
 Plug 'slim-template/vim-slim'
 Plug 'omnisharp/omnisharp-vim'
-Plug 'nanotech/jellybeans.vim'
-"Plug 'ervandew/supertab'
+Plug 'ervandew/supertab'
 Plug 'raimondi/delimitmate'
 Plug 'valloric/youcompleteme'
-
+Plug 'scrooloose/nerdtree'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
 
 " Additional config - Theme
-set t_Co=256
-colorscheme jellybeans
 set background=dark
+syntax on
