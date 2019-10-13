@@ -1,8 +1,20 @@
 # Minhas configs para desenvolvimento no Linux
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+## Ubuntu, Mint :D
 
-## Ubuntu :D
+
+### TODO
+- Baixar papeis de parede em uma pasta
+- Baixar tema em uma pasta
+- Baixar icones em uma pasta
+- Instalar fontes novas no sistema
+- Instalar pacotes para mostrar informações no terminal (verificar como está no notebook)
+- Configurar Intrada do terminal, informando as tecnologias disponíveis
+- Concluir a configuração do VIM
+- Alterar configuração do bash (informações adicionais no Github)
+- Configurações do Ruby on Rails
+- Sincronizar extensões do VSCode
+- Testar o script
 
 ### O Mais importante primeiro WALLPAPERS
 
