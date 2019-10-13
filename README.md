@@ -54,15 +54,12 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 ### Produtividade
 - Boosternote [https://boostnote.io/](https://boostnote.io/) - Ferramenta para criar snippets
-- Postman [https://www.getpostman.com/](https://www.getpostman.com/) Fazer requisições Http
-- Synapse - Spotlight para Linux - Disponível nas lojas do Ubuntu ou Mint
 
 ### Internet
 - Chrome [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) - Navegador
 
 ### Multimidia
-- Pinta [https://pinta-project.com/pintaproject/pinta/](https://pinta-project.com/pintaproject/pinta/) - Editor de imagem
-- Shutter [https://www.cyberciti.biz/open-source/linux-screenshot-program-tool/](https://www.cyberciti.biz/open-source/linux-screenshot-program-tool/) - Ferramenta de prints
+- GIMP - Disponível na loja
 
 ### Som e vídeo
 - VLC [https://www.videolan.org/vlc/index.html](https://www.videolan.org/vlc/index.html) - Mídia num geral
@@ -78,11 +75,11 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 ### Editores
 - Visual Studio Code [https://code.visualstudio.com/](https://code.visualstudio.com/)
-- Vim [https://www.vim.org/](https://www.vim.org/) Melhor editor :D
+- Vim - Disponível via APT - [https://www.vim.org/](https://www.vim.org/) Melhor editor :D
 
 ### Ambiente de desenvolvimento
 - Docker [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-- Solução para problema no Mint: https://forums.linuxmint.com/viewtopic.php?t=300469
+-- Solução para problema no Mint: https://forums.linuxmint.com/viewtopic.php?t=300469
 - Minikube https://github.com/kubernetes/minikube - Rodar kubernetes localhost
 
 ### Utilitários de linha de comando
