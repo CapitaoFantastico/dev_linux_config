@@ -34,6 +34,14 @@ Instalar conforme indicado aqui: [https://github.com/junegunn/vim-plug](https://
 
 > PlugInstall
 
+#### AutoCompleteMe - VIM
+- Para funcionar o autocompleteme com Ruby, precisa após instalar, rodar estes passo (o restante da configuração está no arquivo .vimrc:
+
+```bash
+sudo apt install build-essential cmake python3-dev
+cd ~/.vim/bundle/youcompleteme
+python3 install.py --clang-completer
+```
 
 ### Configurando o tilix
 
@@ -123,16 +131,6 @@ solargraph bundle
 Mais detalhes sobre estas configurações podem ser obtidos nos links abaixo:
 - Rails no VIM - 2019 https://www.vimfromscratch.com/articles/vim-for-ruby-and-rails-in-2019/
 - Topico com passos para melhorar o Solargraph no Ruby: https://github.com/castwide/solargraph/issues/87
-
-
-#### AutoCompleteMe - VIM
-- Para funcionar o autocompleteme com Ruby, precisa após instalar, rodar estes passo (o restante da configuração está no arquivo .vimrc:
-
-```bash
-sudo apt install build-essential cmake python3-dev
-cd ~/.vim/bundle/youcompleteme
-python3 install.py --clang-completer
-```
 
 
 ---
