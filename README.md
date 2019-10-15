@@ -15,6 +15,10 @@
 - Configurações do Ruby on Rails
 - Sincronizar extensões do VSCode
 - Configurar o ZSH
+- Instalar para customizar ZSH: https://github.com/robbyrussell/oh-my-zsh
+- Configurar com este tema o ZSH: https://github.com/romkatv/powerlevel10k#installation
+- Outro otimo tema para configurar: https://github.com/sindresorhus/pure
+- Configurar no ZSH o FZF via Plugin: git fzf autojump
 - Testar o script
 
 ### O Mais importante primeiro WALLPAPERS
