@@ -14,6 +14,7 @@
 - Alterar configuração do bash (informações adicionais no Github)
 - Configurações do Ruby on Rails
 - Sincronizar extensões do VSCode
+- Configurar o ZSH
 - Testar o script
 
 ### O Mais importante primeiro WALLPAPERS
