@@ -62,6 +62,7 @@ nvm install node
 sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 
 ## Programas do repositório APT##
+sudo apt install git -y
 sudo apt install curl -y
 sudo apt install silversearcher-ag -y
 sudo apt install fzf -y
