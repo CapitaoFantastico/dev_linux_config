@@ -35,9 +35,6 @@ wget -nc "$URL_WINE_KEY"
 sudo apt-key add winehq.key
 sudo apt-add-repository "deb $URL_PPA_WINE bionic main"
 
-sudo sh -c "echo 'deb http://repository.spotify.com stable non-free' >> /etc/apt/sources.list.d/spotify.list"
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-
 sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" >> /etc/apt/sources.list.d/addtional-repositories.list
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
@@ -91,7 +88,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 ## flatpak install flathub com.obsproject.Studio -y
 
 ## Instalando pacotes Snap ##
-
+sudo snap install spotify
 # ---------------------------------------------------------------------- #
 
 
