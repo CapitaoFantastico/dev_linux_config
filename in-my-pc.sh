@@ -10,7 +10,6 @@ URL_PPA_WINE="https://dl.winehq.org/wine-builds/ubuntu/"
 URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 URL_VSCODE="https://az764295.vo.msecnd.net/stable/88f15d17dca836346e787762685a40bb5cce75a8/code_1.39.1-1570750687_amd64.deb"
 URL_NVM="https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh"
-URL_PET="https://github.com/knqyf263/pet/releases/download/v0.3.0/pet_0.3.0_linux_amd64.deb"
 
 DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
 # ---------------------------------------------------------------------- #
@@ -50,7 +49,6 @@ sudo apt update -y
 mkdir "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_GOOGLE_CHROME"       -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_VSCODE"       -P "$DIRETORIO_DOWNLOADS"
-wget -c "URL_PET"	-P "$DIRETORIO_DOWNLOADS"
 
 wget -c "$URL_NVM"	-P "$DIRETORIO_DOWNLOADS" | bash
 nvm install node
