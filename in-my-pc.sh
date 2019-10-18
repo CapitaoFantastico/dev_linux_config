@@ -50,7 +50,7 @@ mkdir "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_GOOGLE_CHROME"       -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_VSCODE"       -P "$DIRETORIO_DOWNLOADS"
 
-wget -c "$URL_NVM"	-P "$DIRETORIO_DOWNLOADS" | bash
+wget "$URL_NVM" -O - | sh
 nvm install node
 
 ## Instalando pacotes .deb baixados na sessão anterior ##
