@@ -68,6 +68,7 @@ sudo apt install ratbagd -y
 sudo apt install piper -y
 sudo apt install vim -y
 sudo apt install httpie -y
+sudo apt install gnome-tweaks
 sudo apt-get install fonts-powerline -y
 sudo apt install build-essential -y
 sudo apt install cmake -y
