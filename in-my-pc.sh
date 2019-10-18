@@ -34,9 +34,6 @@ wget -nc "$URL_WINE_KEY"
 sudo apt-key add winehq.key
 sudo apt-add-repository "deb $URL_PPA_WINE bionic main"
 
-sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" >> /etc/apt/sources.list.d/addtional-repositories.list
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
 # ---------------------------------------------------------------------- #
 
 # ----------------------------- EXECUÇÃO ----------------------------- #
@@ -78,8 +75,8 @@ sudo apt install python3-dev -y
 sudo apt install lutris libvulkan1 libvulkan1:i386 -y
 sudo apt install --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 -y
 sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 -y
-sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
+sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt install docker-ce docker-ce-cli containerd.io
 
 ##Instalando pacotes Flatpak ##
