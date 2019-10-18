@@ -33,6 +33,7 @@ sudo add-apt-repository "$PPA_COPYQ" -y
 wget -nc "$URL_WINE_KEY"
 sudo apt-key add winehq.key
 sudo apt-add-repository "deb $URL_PPA_WINE bionic main"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
 # ---------------------------------------------------------------------- #
 
@@ -54,6 +55,7 @@ nvm install node
 sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 
 ## Programas do repositório APT##
+sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt install git -y
 sudo apt install curl -y
 sudo apt install silversearcher-ag -y
@@ -77,8 +79,10 @@ sudo apt install lutris libvulkan1 libvulkan1:i386 -y
 sudo apt install --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 -y
 sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 -y
 sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
-sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt install docker-ce docker-ce-cli containerd.io
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
 
 ##Instalando pacotes Flatpak ##
 ## flatpak install flathub com.obsproject.Studio -y
