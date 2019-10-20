@@ -69,7 +69,7 @@ sudo apt install fzf -y
 sudo apt install mint-meta-codecs -y
 sudo apt install virtualbox -y
 sudo apt install flameshot -y
-sudo apt install spotify-client
+sudo apt install zsh -y
 sudo apt install copyq -y
 sudo apt install steam-installer steam-devices steam:i386 -y
 sudo apt install ratbagd -y
