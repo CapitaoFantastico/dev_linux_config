@@ -2,7 +2,6 @@
 let mapleader = ","
 
 set number
-set guifont=FantasqueSansMono-Regular
 
 nnoremap <C-p> :Files<cr>
 nnoremap <C-b> :Buffers<cr>
@@ -95,5 +94,6 @@ call plug#end()
 
 
 " Additional config - Theme
+colorscheme gruvbox
 set background=dark
 syntax on

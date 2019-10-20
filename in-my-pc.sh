@@ -73,6 +73,7 @@ sudo apt install vim -y
 sudo apt install httpie -y
 sudo apt install gnome-tweaks
 sudo apt-get install fonts-powerline -y
+sudo apt install neofetch -y
 sudo apt install build-essential -y
 sudo apt install cmake -y
 sudo apt install python3-dev -y
@@ -85,6 +86,8 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
 
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 ##Instalando pacotes Flatpak ##
 ## flatpak install flathub com.obsproject.Studio -y
 
@@ -92,27 +95,38 @@ sudo apt-key fingerprint 0EBFCD88
 sudo snap install spotify
 # ---------------------------------------------------------------------- #
 
-
 # ----------------------------- INSTALANDO PACOTES NPM ----------------------------- #
 npm i -g tldr
 npm i -g fkill-cli
 npm i -g how-2
 # ---------------------------------------------------------------------- #
 
+# ----------------------------- REMOVENDO ZIP - REPO COM CONFIGS ----------------------------- #
+unzip "$DIRETORIO_DOWNLOADS_ROOT/master.zip"
+# ---------------------------------------------------------------------- #
 
 # ----------------------------- CONFIGURACAO VIM ----------------------------- #
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 # ---------------------------------------------------------------------- #
 
 # ----------------------------- SALVAR PAPEIS DE PAREDE NA PASTA CORRETA ----------------------------- #
-unzip master.zip -d "$DIRETORIO_IMAGENS"
+unzip "$DIRETORIO_DOWNLOADS_ROOT/dev_linux_config-master/wallpapers.zip" -d "$DIRETORIO_IMAGENS"
 # ---------------------------------------------------------------------- #
 
 
-# ----------------------------- SALVAR PAPEIS DE PAREDE NA PASTA CORRETA ----------------------------- #
-
+# ----------------------------- COPIAR .FILES ----------------------------- #
+cp "$DIRETORIO_DOWNLOADS_ROOT/dev_linux_config-master/[.]*" "$HOME"
 # ---------------------------------------------------------------------- #
 
+# ----------------------------- ZSH Temas e configurações ----------------------------- #
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+# Set ZSH_THEME="spaceship" in your .zshrc.
+# Habilita temas no ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+
+# ---------------------------------------------------------------------- #
 
 # ----------------------------- PÓS-INSTALAÇÃO ----------------------------- #
 ## Finalização, atualização e limpeza##

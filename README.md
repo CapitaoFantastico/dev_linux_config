@@ -4,23 +4,11 @@
 
 
 ### TODO
-- Baixar papeis de parede em uma pasta
-- Baixar tema em uma pasta
-- Baixar icones em uma pasta
-- Instalar fontes novas no sistema
-- Instalar pacotes para mostrar informações no terminal (verificar como está no notebook)
-- Configurar Intrada do terminal, informando as tecnologias disponíveis
-- Concluir a configuração do VIM
+- Instalar pacotes para mostrar informações no terminal (cowsay)
+- Configurar Entrada do terminal, informando as tecnologias disponíveis
 - Alterar configuração do bash (informações adicionais no Github)
-- Configurações do Ruby on Rails
-- Sincronizar extensões do VSCode
-- Configurar o ZSH
-- Instalar para customizar ZSH: https://github.com/robbyrussell/oh-my-zsh
-- Configurar com este tema o ZSH: https://github.com/romkatv/powerlevel10k#installation
-- Outro otimo tema para configurar: https://github.com/sindresorhus/pure
-- Configurar no ZSH o FZF via Plugin: git fzf autojump
+- Opções de temas do ZSH: https://github.com/romkatv/powerlevel10k#installation, https://github.com/sindresorhus/pure, https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
 - Configurar Autojump: https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/
-- Testar o script
 
 ### O Mais importante primeiro WALLPAPERS
 
