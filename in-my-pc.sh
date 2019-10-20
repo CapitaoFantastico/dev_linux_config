@@ -35,7 +35,6 @@ sudo add-apt-repository "$PPA_COPYQ" -y
 wget -nc "$URL_WINE_KEY"
 sudo apt-key add winehq.key
 sudo apt-add-repository "deb $URL_PPA_WINE disco main"
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
 # ---------------------------------------------------------------------- #
 
@@ -87,10 +86,6 @@ sudo apt install lutris libvulkan1 libvulkan1:i386 -y
 sudo apt install --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 -y
 sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 -y
 sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
-sudo apt install docker-ce docker-ce-cli containerd.io
-
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
 
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -105,33 +100,6 @@ sudo snap install spotify
 npm i -g tldr
 npm i -g fkill-cli
 npm i -g how-2
-# ---------------------------------------------------------------------- #
-
-# ----------------------------- REMOVENDO ZIP - REPO COM CONFIGS ----------------------------- #
-unzip "$DIRETORIO_DOWNLOADS_ROOT/master.zip"
-# ---------------------------------------------------------------------- #
-
-# ----------------------------- CONFIGURACAO VIM ----------------------------- #
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-# ---------------------------------------------------------------------- #
-
-# ----------------------------- SALVAR PAPEIS DE PAREDE NA PASTA CORRETA ----------------------------- #
-unzip "$DIRETORIO_DOWNLOADS_ROOT/dev_linux_config-master/wallpapers.zip" -d "$DIRETORIO_IMAGENS"
-# ---------------------------------------------------------------------- #
-
-
-# ----------------------------- COPIAR .FILES ----------------------------- #
-cp "$DIRETORIO_DOWNLOADS_ROOT/dev_linux_config-master/[.]*" "$HOME"
-# ---------------------------------------------------------------------- #
-
-# ----------------------------- ZSH Temas e configurações ----------------------------- #
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-# Set ZSH_THEME="spaceship" in your .zshrc.
-# Habilita temas no ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
-
 # ---------------------------------------------------------------------- #
 
 # ----------------------------- PÓS-INSTALAÇÃO ----------------------------- #
