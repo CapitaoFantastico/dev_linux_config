@@ -1,19 +1,4 @@
 #!/usr/bin/env bash
-
-# -- PRÉ INSTALAÇÃO-- #
-URL_NVM="https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh"
-
-# Instalação NVM #
-wget "$URL_NVM" -O - | sh
-# Configurar variável de ambiente manualmente
-nvm install node
-# ---------------------------------------------------------------------- #
-
-
-
-
-# ---------------------------------------------------------------------- #
-
 # ----------------------------- VARIÁVEIS ----------------------------- #
 PPA_LIBRATBAG="ppa:libratbag-piper/piper-libratbag-git"
 PPA_LUTRIS="ppa:lutris-team/lutris"
@@ -24,8 +9,11 @@ URL_WINE_KEY="https://dl.winehq.org/wine-builds/winehq.key"
 URL_PPA_WINE="https://dl.winehq.org/wine-builds/ubuntu/"
 URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 URL_VSCODE="https://az764295.vo.msecnd.net/stable/88f15d17dca836346e787762685a40bb5cce75a8/code_1.39.1-1570750687_amd64.deb"
+URL_GIT_DOCS_COMPLEMENTAR="https://github.com/CapitaoFantastico/dev_linux_config/archive/master.zip"
 
 DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
+DIRETORIO_DOWNLOADS_ROOT="$HOME/Downloads/"
+DIRETORIO_IMAGENS="$HOME/Imagens"
 # ---------------------------------------------------------------------- #
 
 # ----------------------------- REQUISITOS ----------------------------- #
@@ -61,6 +49,7 @@ sudo apt update -y
 mkdir "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_GOOGLE_CHROME"       -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_VSCODE"       -P "$DIRETORIO_DOWNLOADS"
+wget -c "$URL_GIT_DOCS_COMPLEMENTAR"       -P "$DIRETORIO_DOWNLOADS_ROOT"
 
 ## Instalando pacotes .deb baixados na sessão anterior ##
 sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
@@ -68,6 +57,7 @@ sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 ## Programas do repositório APT##
 sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt install git -y
+sudo apt install unzip -y
 sudo apt install curl -y
 sudo apt install silversearcher-ag -y
 sudo apt install fzf -y
@@ -107,13 +97,19 @@ sudo snap install spotify
 npm i -g tldr
 npm i -g fkill-cli
 npm i -g how-2
-
-
 # ---------------------------------------------------------------------- #
 
 
-# ----------------------------- CONFIGURACAO VIM, NVM, DOCKER ----------------------------- #
+# ----------------------------- CONFIGURACAO VIM ----------------------------- #
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# ---------------------------------------------------------------------- #
+
+# ----------------------------- SALVAR PAPEIS DE PAREDE NA PASTA CORRETA ----------------------------- #
+unzip master.zip -d "$DIRETORIO_IMAGENS"
+# ---------------------------------------------------------------------- #
+
+
+# ----------------------------- SALVAR PAPEIS DE PAREDE NA PASTA CORRETA ----------------------------- #
 
 # ---------------------------------------------------------------------- #
 
