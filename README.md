@@ -35,6 +35,16 @@ Para fazer eles funcionarem como um slide passando varios papéis de parede bast
 - Alterar nas configs do terminal do Linux para usar a fonte acima;
 - Para alterar a fonte no vim, só seguir os passos abaixo, pois esta alteração já consta no $HOME/.vimrc
 
+### Instalação NVM
+wget "https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh" -O - | sh
+
+``` bash
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+nvm install node
+
 ### Icones
 - Baixar este pacote de icones: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 - Colocar o resultado extraído dentro da pasta: ~/.icons
