@@ -34,13 +34,16 @@ sudo apt-add-repository "$PPA_GRAPHICS_DRIVERS" -y
 sudo add-apt-repository "$PPA_COPYQ" -y
 wget -nc "$URL_WINE_KEY"
 sudo apt-key add winehq.key
-sudo apt-add-repository "deb $URL_PPA_WINE bionic main"
+sudo apt-add-repository "deb $URL_PPA_WINE disco main"
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
 # ---------------------------------------------------------------------- #
 
 # ----------------------------- EXECUÇÃO ----------------------------- #
 sudo apt install snapd -y
+
+## Remover Snaps desnecessários
+snap remove gnome-system-monitor gnome-calculator gnome-characters gnome-logs
 
 ## Atualizando o repositório depois da adição de novos repositórios ##
 sudo apt update -y
@@ -56,9 +59,11 @@ sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 
 ## Programas do repositório APT##
 sudo apt remove docker docker-engine docker.io containerd runc -y
+sudo apt install ubuntu-restricted-extras -y
 sudo apt install git -y
 sudo apt install unzip -y
 sudo apt install curl -y
+sudo apt install gnome-system-monitor gnome-calculator gnome-characters gnome-logs -y
 sudo apt install silversearcher-ag -y
 sudo apt install fzf -y
 sudo apt install mint-meta-codecs -y
@@ -71,7 +76,8 @@ sudo apt install ratbagd -y
 sudo apt install piper -y
 sudo apt install vim -y
 sudo apt install httpie -y
-sudo apt install gnome-tweaks
+sudo apt install gnome-sushi
+sudo apt install gnome-tweaks # Mudar Tema para Yaru Dark
 sudo apt-get install fonts-powerline -y
 sudo apt install neofetch -y
 sudo apt install build-essential -y
