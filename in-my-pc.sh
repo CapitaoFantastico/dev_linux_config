@@ -58,6 +58,7 @@ sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 
 ## Programas do repositório APT##
 sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
+sudo apt install nvidia-driver -y
 sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt install ubuntu-restricted-extras -y
 sudo apt install git -y
