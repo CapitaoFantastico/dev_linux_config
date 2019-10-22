@@ -9,8 +9,9 @@ gno
 - Habilitar o proton na Steam 
 - Instalar pacotes para mostrar informações no terminal (cowsay)
 - Configurar Entrada do terminal, informando as tecnologias disponíveis
-- Alterar configuração do bash (informações adicionais no Github)
-- Opções de temas do ZSH: https://github.com/romkatv/powerlevel10k#installation, https://github.com/sindresorhus/pure, https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
+- Configurar FZF via Git
+- Configurar ZSH com Oh my ZSH
+- Opções de temas do ZSH: https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
 - Configurar Autojump: https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/
 
 ### O Mais importante primeiro WALLPAPERS
