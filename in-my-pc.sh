@@ -51,30 +51,29 @@ sudo apt update -y
 mkdir "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_GOOGLE_CHROME"       -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_VSCODE"       -P "$DIRETORIO_DOWNLOADS"
-wget -c "$URL_GIT_DOCS_COMPLEMENTAR"       -P "$DIRETORIO_DOWNLOADS_ROOT"
 
 ## Instalando pacotes .deb baixados na sessão anterior ##
 sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 
 ## Programas do repositório APT##
-sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
-sudo apt install nvidia-driver -y
+# sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
+# sudo apt install nvidia-driver -y
 sudo apt remove docker docker-engine docker.io containerd runc -y
-sudo apt install ubuntu-restricted-extras -y
+# sudo apt install ubuntu-restricted-extras -y
 sudo apt install git -y
 sudo apt install unzip -y
 sudo apt install curl -y
 sudo apt install gnome-system-monitor gnome-calculator gnome-characters gnome-logs -y
 sudo apt install silversearcher-ag -y
 sudo apt install fzf -y
-sudo apt install mint-meta-codecs -y
+# sudo apt install mint-meta-codecs -y
 sudo apt install virtualbox -y
 sudo apt install flameshot -y
 sudo apt install zsh -y
-sudo apt install copyq -y
-sudo apt install steam-installer steam-devices steam:i386 -y
-sudo apt install ratbagd -y
-sudo apt install piper -y
+# sudo apt install copyq -y
+# sudo apt install steam-installer steam-devices steam:i386 -y
+# sudo apt install ratbagd -y
+# sudo apt install piper -y
 sudo apt install vim -y
 sudo apt install httpie -y
 sudo apt install gnome-sushi
@@ -84,23 +83,15 @@ sudo apt install neofetch -y
 sudo apt install build-essential -y
 sudo apt install cmake -y
 sudo apt install python3-dev -y
-sudo apt install lutris libvulkan1 libvulkan1:i386 -y
-sudo apt install --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 -y
-sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 -y
-
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sudo apt install lutris libvulkan1 libvulkan1:i386 -y
+# sudo apt install --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 -y
+# sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 -y
 
 ##Instalando pacotes Flatpak ##
 ## flatpak install flathub com.obsproject.Studio -y
 
 ## Instalando pacotes Snap ##
 sudo snap install spotify
-# ---------------------------------------------------------------------- #
-
-# ----------------------------- INSTALANDO PACOTES NPM ----------------------------- #
-npm i -g tldr
-npm i -g fkill-cli
-npm i -g how-2
 # ---------------------------------------------------------------------- #
 
 # ----------------------------- PÓS-INSTALAÇÃO ----------------------------- #
