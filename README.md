@@ -2,13 +2,11 @@
 
 ## Ubuntu, Mint :D
 
-gno
 ### TODO
 - Configurar Gestor de arquivos
 - Habilitar Flatpack: Instalar OBS, Gimp e Photogimp (verificar em Diolinux)
-- Habilitar o proton na Steam 
-- Instalar pacotes para mostrar informações no terminal (cowsay)
-- Configurar Entrada do terminal, informando as tecnologias disponíveis
+- Habilitar o proton na Steam
+- Instalar Synaptic
 - Configurar FZF via Git
 - Configurar ZSH com Oh my ZSH
 - Opções de temas do ZSH: https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
