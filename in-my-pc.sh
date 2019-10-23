@@ -75,7 +75,8 @@ sudo apt install zsh -y
 # sudo apt install ratbagd -y
 # sudo apt install piper -y
 sudo apt install vim -y
-sudo apt install vim-gtk
+sudo apt install vim-gtk -y
+sudo apt install htop -y
 sudo apt install httpie -y
 sudo apt install gnome-sushi
 sudo apt install gnome-tweaks # Mudar Tema para Yaru Dark
