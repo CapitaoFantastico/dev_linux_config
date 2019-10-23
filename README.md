@@ -111,6 +111,9 @@ python3 install.py --clang-completer
 - Minikube https://github.com/kubernetes/minikube - Rodar kubernetes localhost
 
 ### Utilitários de linha de comando
+- Thefuck - https://github.com/nvbn/thefuck - Corrigir comandos digitados incorretamente no terminal
+- neofetch - Verificar resumo do sistema
+- dockly - Gerenciamento recursos docker
 - The Silver Searcher - https://github.com/ggreer/the_silver_searcher Melhor buscar dentro de arquivos
 - tldr [https://tldr.sh/](https://tldr.sh/) Utilitário parecido com o man do linux, só que mais direto e mais simples
 - YADM [https://github.com/TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm) - Gerenciados de .[dot]Files
