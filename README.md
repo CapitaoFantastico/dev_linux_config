@@ -130,6 +130,11 @@ python3 install.py --clang-completer
 - JsonServer [https://github.com/typicode/json-server](https://github.com/typicode/json-server) Serve um json como uma API
 - MailHog [https://blog.rocketseat.com.br/testando-emails-mailhog-node-docker/](https://blog.rocketseat.com.br/testando-emails-mailhog-node-docker/) Servidor SMTP pra poder testar o envio de e-mails, só seguir o tutorial ai de cima
 
+## Criar alias no ZSH
+```bash
+echo "alias lzd='lazydocker'" >> ~/.zshrc
+```
+
 ## Configs Por Linguagem
 
 ### Ruby on Rails
