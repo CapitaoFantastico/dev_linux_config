@@ -1,0 +1,30 @@
+{
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "zenMode.hideLineNumbers": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "name": "Tag brackets",
+            "scope": ["punctuation.definition.tag"],
+            "settings": {
+              "foreground": "#BBBBBB"
+            }
+          }
+        ]
+    },
+    "workbench.colorTheme": "Horizon Bold",
+    "editor.renderControlCharacters": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderWhitespace": "all",
+}
