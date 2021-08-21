@@ -5,6 +5,7 @@
 ### TODO
 - Instalar o ZSH primeiro
 - Configurar Gestor de arquivos
+- Starship e Nerfonts
 - Habilitar Flatpack: Instalar OBS, Gimp e Photogimp (verificar em Diolinux)
 - Habilitar o proton na Steam
 - Instalar Synaptic
