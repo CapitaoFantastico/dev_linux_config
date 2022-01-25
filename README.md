@@ -28,8 +28,18 @@ Para fazer eles funcionarem como um slide passando varios papéis de parede bast
 - Alterar nas configs do terminal do Linux para usar a fonte acima;
 - Para alterar a fonte no vim, só seguir os passos abaixo, pois esta alteração já consta no $HOME/.vimrc
 
-### Instalação NVM
-wget "https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh" -O - | sh
+### Instalação FNM - node
+https://github.com/Schniz/fnm
+
+### Instalar Spaceship, zsh, oh my zsh, etc, verificar fontes obrigatorios
+
+### Instalar python, conda, .net
+
+### Instalar fasd
+
+### Instalar Docker, docker-compose, minikube
+
+### Instalar Terminator
 
 ``` bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
